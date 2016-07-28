@@ -22,6 +22,10 @@ ul, ol {
     padding-left: 1.5rem;
 }
 
+li {
+    margin-bottom: 0.5rem;
+}
+
 .header {
     background-color: rgb(85, 119, 136);
     color: white;
@@ -29,11 +33,17 @@ ul, ol {
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
+    text-align: center;
 }
 
 .header-subtext {
     text-align: center;
     font-style: italic;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 0.2rem;
 }
 
 .wrapper {
@@ -56,7 +66,6 @@ ul, ol {
 
 .contents-list li {
     display: inline-block;
-    font-weight: 700;
     padding: 0.5rem;
 }
 
@@ -72,7 +81,7 @@ ul, ol {
     border-radius: 0.2rem;
 }
 
-.callout-box h2 {
+.soft-heading, .callout-box h2 {
     color: rgba(85, 119, 136, 0.5);
     font-weight: 300;
     text-align: center;
@@ -98,9 +107,8 @@ ul#sponsor-list li {
 ul#sponsor-list {
     list-style-type: none;
     text-align: center;
+    padding: 0;
 }
-
-
 
 @media only screen and (max-width: 45rem) {
     .wrapper {
