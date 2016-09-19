@@ -156,7 +156,18 @@ Audience can understand how to interface different sensor with IoT product runni
 <p>
   <strong>Supporting multiple WAN interfaces in a seamless and transparent way</strong><br>
   <em>Johan Peeters, Technicolor</em><br>
-  At last year's summit, Hans Dedecker introduced Technicolor's solution for supporting services across multiple WAN interfaces with an OpenWrt based product. While most OpenWrt users need just one single WAN interface for all broadband traffic, we are confronted with telcos requiring multiple services on the WAN. For example, they might want to separate data, video, voice and management traffic in multiple VLANs.
+  At last year's summit, Hans Dedecker introduced Technicolor's solution for supporting services across multiple WAN interfaces with an OpenWrt based product. While most OpenWrt users need just one single WAN interface for all broadband traffic, we are confronted with telcos requiring multiple services on the WAN. For example, they might want to separate data, video, voice and management traffic in multiple VLANs.<br><br>
+
+  This year, we'd like to introduce a related challenge: how to support
+an OpenWrt based product that can be connected to the Internet via one
+of many different types of WAN interfaces like Ethernet, DSL and LTE--
+each employing one of many different protocols like PPP and DHCP--in
+a manner which is transparent to the rest of the system?<br><br>
+
+OpenWrt does not provide an out of the box solution for this use case
+today. In this presentation, we will describe the use cases in more
+detail and present our solution which includes new OpenWrt packages
+and scripts.
 </p>
 
 <p>
